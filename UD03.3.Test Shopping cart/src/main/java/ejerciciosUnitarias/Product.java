@@ -1,3 +1,5 @@
+package ejerciciosUnitarias;
+
 public class Product {
 	private String title;
 	private double price;
@@ -23,4 +25,3 @@ public class Product {
 		return false;
 	}
 }
-

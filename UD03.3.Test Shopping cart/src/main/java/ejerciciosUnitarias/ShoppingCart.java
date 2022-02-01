@@ -1,4 +1,7 @@
-import java.util.*;
+package ejerciciosUnitarias;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ShoppingCart {
 	
@@ -35,4 +38,3 @@ public class ShoppingCart {
 		items.clear();
 	}
 }
-
