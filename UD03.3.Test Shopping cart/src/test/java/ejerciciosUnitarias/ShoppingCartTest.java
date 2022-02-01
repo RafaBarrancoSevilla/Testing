@@ -34,7 +34,7 @@ class ShoppingCartTest {
 		Product b= new Product("Peine",1);
 		
 		s.addItem(b);
-		assertEquals(1,s.getItemCount(),"Error: Yuri es puto");
+		assertEquals(1,s.getItemCount(),"Error");
 	}
 
 	/**
@@ -51,7 +51,7 @@ class ShoppingCartTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		assertEquals(0,s.getItemCount(),"Error: Yuri es feo");
+		assertEquals(0,s.getItemCount(),"Error");
 	}
 
 	/**
@@ -63,7 +63,7 @@ class ShoppingCartTest {
 		Product b= new Product("Peine",1);
 		
 		s.addItem(b);
-		assertEquals(1, s.getItemCount(),"Error yuri la tiene chica");
+		assertEquals(1, s.getItemCount(),"Error");
 	}
 
 	/**
