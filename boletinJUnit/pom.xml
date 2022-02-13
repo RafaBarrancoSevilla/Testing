@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>es.iessoterohernandez.daw.endes</groupId>
+  <artifactId>boletinJUnit</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+<dependencies>
+	<dependency>
+    	<groupId>org.junit.jupiter</groupId>
+    	<artifactId>junit-jupiter</artifactId>
+    	<version>5.8.2</version>
+    	<scope>test</scope>
+	</dependency>
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-params</artifactId>
+    <version>5.8.2</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-runner -->
+<dependency>
+    <groupId>org.junit.platform</groupId>
+    <artifactId>junit-platform-runner</artifactId>
+    <version>1.8.2</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite -->
+<dependency>
+    <groupId>org.junit.platform</groupId>
+    <artifactId>junit-platform-suite</artifactId>
+    <version>1.8.2</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite-engine -->
+<dependency>
+    <groupId>org.junit.platform</groupId>
+    <artifactId>junit-platform-suite-engine</artifactId>
+    <version>1.8.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-junit -->
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest-junit</artifactId>
+    <version>2.0.0.0</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest</artifactId>
+    <version>2.2</version>
+    <scope>test</scope>
+</dependency>
+</dependencies>
+</project>
